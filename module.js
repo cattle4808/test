@@ -1,5 +1,4 @@
-// module.js
-export default function() {
+(() => {
   const d = document;
   let el = d.createElement('div');
   el.textContent = 'Модуль импортирован!';
@@ -15,4 +14,4 @@ export default function() {
     zIndex: 2147483647
   });
   d.body.appendChild(el);
-}
+})();
